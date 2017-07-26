@@ -1,4 +1,10 @@
 def fizzbuzz(num)
- return "fizz" unless num==5
+ case num
+ when 3
+ "fizz"
+ when 5
  "buzz"
+ when 15
+ "fizzbuzz"
+ end
 end
